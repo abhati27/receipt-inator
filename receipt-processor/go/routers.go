@@ -1,3 +1,13 @@
+/*
+ * routers.go - Routing Logic for the Receipt Processor API
+ *
+ * This file defines API routing using Gin. It maps HTTP methods and URL patterns
+ * to their respective handler functions. The `Route` struct holds route details,
+ * and `NewRouter` sets up routes via `getRoutes`, which lists available endpoints:
+ * - `GET /receipts/:id/points` for fetching receipt points.
+ * - `POST /receipts/process` for processing receipts.
+ * Unimplemented routes default to a `501 Not Implemented` response.
+ */
 package openapi
 
 import (

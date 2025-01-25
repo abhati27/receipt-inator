@@ -1,3 +1,17 @@
+/*
+ * api_default.go - API Endpoints for Receipt Processor
+ *
+ * This file defines two endpoints:
+ * 1. **POST /receipts/process**:
+ *    - Validates and processes a receipt.
+ *    - Calculates points and stores them with a unique ID.
+ *    - Returns the receipt ID or a `400 Bad Request` on validation failure.
+ * 2. **GET /receipts/:id/points**:
+ *    - Retrieves points for a receipt by its ID.
+ *    - Returns `404 Not Found` if the ID does not exist.
+ *
+ * Includes custom field validation and uses a map to store receipt points.
+ */
 package openapi
 
 import (

@@ -1,3 +1,18 @@
+/*
+ * points_calculator.go - Receipt Points Calculation Logic
+ *
+ * This file implements the `calculatePoints` function to compute points for a receipt
+ * based on the following 7 rules:
+ * 1. One point for each alphanumeric character in the retailer's name.
+ * 2. 50 points if the total is a round dollar amount with no cents.
+ * 3. 25 points if the total is a multiple of 0.25.
+ * 4. 5 points for every two items on the receipt.
+ * 5. If an item's description length is a multiple of 3, 20% of the item's price is awarded as points.
+ * 6. 6 points if the purchase day is odd.
+ * 7. 10 points if the purchase time is between 2 PM and 4 PM.
+ *
+ * Logs are added to trace each rule's contribution to the total points.
+ */
 package openapi
 
 import (
