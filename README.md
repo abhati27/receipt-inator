@@ -2,6 +2,16 @@
 
 A simple receipt processor API to calculate and retrieve receipt points based on specific rules.
 
+There is a Makefile in the root directory to easily build and run the project
+- `make build`
+- `make run`
+
+You can also use the docker extension on vs code to do the same
+Additionally you can use the below commands to build and run
+- `docker build -t receipt-inator .`
+- `docker run -p 8080:8080 receipt-inator`
+
+
 ---
 ## API Documentation
 
@@ -14,6 +24,7 @@ Submits a receipt for processing and returns a unique receipt ID.
 - **URL**: `/receipts/process`
 - **Method**: `POST`
 - **Body**:
+
   ```json
   {
       "retailer": "Target",
