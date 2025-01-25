@@ -1,0 +1,16 @@
+{
+    "retailer": "Target",
+    "purchaseDate": "2022-01-01",
+    "purchaseTime": "13:01",
+    "items": [
+        {
+            "shortDescription": "Mountain Dew",
+            "price": "1.99"
+        },
+        {
+            "shortDescription": "Cheese",
+            "price": "2.49"
+        }
+    ],
+    "total": "4.48"
+}
