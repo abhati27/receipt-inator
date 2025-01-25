@@ -7,6 +7,7 @@ There is a Makefile in the root directory to easily build and run the project
 - `make run`
 
 You can also use the docker extension on vs code to do the same
+
 Additionally you can use the below commands to build and run
 - `docker build -t receipt-inator .`
 - `docker run -p 8080:8080 receipt-inator`
