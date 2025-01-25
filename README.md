@@ -2,7 +2,7 @@
 
 [![YouTube Video](https://img.youtube.com/vi/ASZwu7vV-bg/0.jpg)](https://www.youtube.com/watch?v=ASZwu7vV-bg)
 
-[Watch on how to run the project](https://www.youtube.com/watch?v=ASZwu7vV-bg)
+[Watch how to run the project](https://www.youtube.com/watch?v=ASZwu7vV-bg)
 
 A simple receipt processor API to calculate and retrieve receipt points based on specific rules.
 
